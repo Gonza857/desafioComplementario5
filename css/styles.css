@@ -33,11 +33,8 @@
 }
 
 /* CONTACT */
-.form__img {
-    border: 1px solid red;
-}
-.form__data {
-    border: 1px solid blue;
+.body__bg-img {
+
 }
 
 /* FOOTER */
@@ -54,6 +51,8 @@
     font-size: .7rem;
     text-align: center;
 }
+
+
 
 @media (min-width:768px) {
     /* GALLERY */
