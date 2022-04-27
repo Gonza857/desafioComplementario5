@@ -17,6 +17,11 @@
 .bg-primary {
     background-image: linear-gradient(to top, #93bfb7, #69aaaa);
 }
+
+.card {
+    background: #93bfb7 !important;
+
+}
 .alto {
     min-height: 100px;
 }
@@ -31,12 +36,19 @@
 .gallery-row .column {
     flex: 33.3%;
 }
+/* UBICATION */
+    .card {
+        background-image: linear-gradient(to top, #93bfb7, #69aaaa);
+    }
+    .card-text i {
+        padding: 0 10px;
+    }
 
 /* CONTACT */
-.body__bg-img {
-
+body{
+    background-color: #e5e5f7;
+    background-image: url(../assets/images/body-bg.png)
 }
-
 /* FOOTER */
 .footer__contact-p {
     font-size: .7rem;
@@ -79,6 +91,16 @@
 }
 
 @media (min-width:992px) {
+    /* NAVBAR */
+    .navbar {
+        height: 100px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .nav-link {
+        font-size: 1.4rem;
+    }
     /* GALLERY */
     .img3, .img4 {
         height: unset;

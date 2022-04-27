@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>Contactanos</title>
 </head>
-<body class="body__bg-img">
+<body>
     <!-- NAVBAR -->
     <nav class="container-fluid navbar navbar-expand-sm navbar-light bg-primary d-sm-flex">
         <div class="container-fluid d-md-flex">
@@ -49,45 +49,37 @@
         </div>
     </nav>
     <!-- CUERPO -->
-
-    <div class="container-sm form-cont px-sm-1 my-md-3">
-        <div class="row">
-            <div class="form__img col-6 d-none d-md-block">
-                <img src="../assets/images/contact.jpg" alt="" class="img-fluid">
-            </div>
-
-            <div class="form__data form-group d-flex flex-column justify-content-around col-12 col-md-6 px-xl-5">
-
-                <h3 class="card-title fw-bold text-center pt-5 pb-3">¡Contactanos!</h3>
-
-                <div class="mb-3">
-                    <label for="nombre-txt" class="form-label">Nombre</label>
-                    <input type="text" id="nombre-txt" class="form-control" placeholder="Ingrese su nombre">
+    <div class="body__bg-img">
+        <div class="container-sm form-cont px-sm-1 my-md-3">
+            <div class="row">
+                <div class="form__img col-6 d-none d-md-block">
+                    <img src="../assets/images/contact.jpg" alt="" class="img-fluid">
                 </div>
-
-                <div class="mb-3">
-                    <label for="apellido-txt" class="form-label">Apellido</label>
-                    <input type="text" id="apellido-txt" class="form-control" placeholder="Ingrese su apellido">
+                <div class="form__data form-group d-flex flex-column justify-content-around col-12 col-md-6 px-xl-5">
+                    <h3 class="card-title fw-bold text-center pt-5 pb-3">¡Contactanos!</h3>
+                    <div class="mb-3">
+                        <label for="nombre-txt" class="form-label">Nombre</label>
+                        <input type="text" id="nombre-txt" class="form-control" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido-txt" class="form-label">Apellido</label>
+                        <input type="text" id="apellido-txt" class="form-control" placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email-txt" class="form-label">Correo electrónico</label>
+                        <input type="text" id="email-txt" class="form-control" placeholder="Ingrese su correo electrónico">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email-txt" class="form-label">Correo electrónico</label>
+                        <textarea id="area-txt" class="form-control" placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                    <div class="mb-4 d-grid justify-content-center">
+                        <button type="submit" class="btn btn-primary">Enviar consulta</button>
+                    </div>
                 </div>
-
-                <div class="mb-3">
-                    <label for="email-txt" class="form-label">Correo electrónico</label>
-                    <input type="text" id="email-txt" class="form-control" placeholder="Ingrese su correo electrónico">
-                </div>
-
-                <div class="mb-3">
-                    <label for="email-txt" class="form-label">Correo electrónico</label>
-                    <textarea id="area-txt" class="form-control" placeholder="Ingrese su mensaje"></textarea>
-                </div>
-
-                <div class="mb-4 d-grid justify-content-center">
-                    <button type="submit" class="btn btn-primary">Enviar consulta</button>
-                </div>
-
             </div>
         </div>
     </div>
-
     <!-- FOOTER -->
     <footer class="footer container-fluid bg-primary">
         <div class="footer__content row">
