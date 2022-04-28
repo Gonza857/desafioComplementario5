@@ -17,10 +17,8 @@
 .bg-primary {
     background-image: linear-gradient(to top, #93bfb7, #69aaaa);
 }
-
 .card {
     background: #93bfb7 !important;
-
 }
 .alto {
     min-height: 100px;
@@ -63,9 +61,6 @@ body{
     font-size: .7rem;
     text-align: center;
 }
-
-
-
 @media (min-width:768px) {
     /* GALLERY */
     .gallery-row1 {
